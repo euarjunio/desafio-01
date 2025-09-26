@@ -1,0 +1,22 @@
+{
+  "name": "desafio-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/server.ts",
+    "import-csv": "tsx src/streams/import-csv.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^24.5.2",
+    "csv": "^6.4.1",
+    "csv-generate": "^4.5.0",
+    "csv-parse": "^6.1.0",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}
